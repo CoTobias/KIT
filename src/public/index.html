@@ -1,16 +1,28 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tobis Server</title>
+    <link rel="stylesheet" href="meinStyle.css">
+    <title>Chatter</title>
 </head>
 <body>
-    Hallo welt!
+    <h1 class="Interface">
+        Chatter
+    </h1>
+    <div class="them"> 
+        
+    </div>
+    <div class="me">
+        ...
+    </div>
+    <form> 
+        <input type="text" placeholder="Type something" id="input">
+        </form>
 
     <script src="/socket.io/socket.io.js"></script>
-
     <script src="js/client.js"></script>
+    <script src="js/angular.js"></script>
 </body>
 </html>

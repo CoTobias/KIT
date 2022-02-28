@@ -1,0 +1,57 @@
+body{
+    background-color: beige;
+    margin-bottom:30px;
+    }
+.Interface {
+    background-color:beige;
+    color: black;
+    width: 90%;
+    height: 50px;
+    padding: 20px;
+    margin-left: 50px;
+    font-family: Tahoma, Geneva, sans-serif;
+    text-align: center;
+    font-size: 30px;
+
+}
+.them {
+    background-color: #c0d6e4;
+    color : black;
+    width: 75%;
+    height: 45px;
+    padding:10px;
+    margin: 5px;
+    text-align: left;
+    border-radius: 1em;
+    max-width:75%;
+    margin-bottom:10px;
+    font-size: 20px;
+}
+.me {
+    background-color: rgb(45, 206, 45);
+    color:black;
+    width:75%;
+    height : 45px;
+    padding:10px;
+    margin: 5px;
+    text-align: left;
+    border-radius: 1em;
+    margin-bottom:10px;
+    font-size: 20px;
+}
+#input{
+
+    width: 90%;
+    background-color:green;
+    color:white;
+    border-radius: 1em;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 30px;
+    left: 28px;
+    width: 1000px;
+    height: 40px;
+}
